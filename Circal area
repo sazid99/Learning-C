@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+    float x;
+    float y;
+    float a;
+    float b=3.14;
+    printf("Enter the redius value: ");
+    printf("\n \n");
+    scanf("%f",&a);
+    x=2*a*b;
+    y=b*a*a;
+    
+    printf("Your result is:%f",x);
+     printf("\n \n");
+    printf("Your Area result is:%f",y);
+
+    
+}
