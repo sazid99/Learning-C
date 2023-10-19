@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main(){
+int a, b, c;
+
+printf("Enter 1st value: ");
+scanf("%d",&a);
+printf("\n \n");
+printf("Enter 2nd value: ");
+scanf("%d",&b);
+printf("\n \n");
+printf("Enter 3rd value: ");
+scanf("%d",&c);
+printf("\n \n");
+
+if(a>=b && a>=c){
+printf("a=%d is Largest",a);}
+
+else if (b>=a && b>=c){
+printf("b=%d is Largest",b);
+}
+
+else
+{
+printf("c=%d is Largest",c);
+}
+printf("\n \n");
+printf("Thank You");
+printf("\n \n");
+
+
+}
