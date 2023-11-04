@@ -8,7 +8,7 @@ printf("Enter two numbers: ");
 scanf("%lf \t %lf",&num1,&num2);
 printf("\n");
 printf("Enter the operator[+,-,*,/]");
-scanf("%c",op);
+scanf("%c",&op);
 printf("\n");
 
 switch(op)
