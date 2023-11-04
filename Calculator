@@ -11,7 +11,7 @@ printf("\n");
 printf("Enter 1st number: ");
 scanf("%lf",&num1);
 printf("\n");
-printf("Enter two numbers: ");
+printf("Enter 2nd number: ");
 scanf("%lf",&num2);
 printf("\n");
 
