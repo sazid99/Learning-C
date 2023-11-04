@@ -1,0 +1,37 @@
+#include<stdio.h>
+int main()
+{
+int choice;
+float temp, ConTemp ;
+
+printf(" 		✪Temperature Converter✪	\n\n");
+printf("1. Fahrenheit to Celcius  \n");
+printf("2. Celcius to Fahrenheit  \n\n");
+printf("Enter your choice : ");
+scanf("%f",&choice);
+
+switch(choice)
+{
+	case 1 : 
+	{
+	printf("Enter the Fahrenheit Temperature :");
+    scanf("%f",&temp);
+    ConTemp = (temp-32)/1.8;
+    printf("The Temperature in Celcius is: %f \n",ConTemp);
+    break;
+	}
+    
+	case 2 :
+	{
+	printf("Enter the Celcius Temperature :");
+    scanf("%f",&temp);
+    ConTemp = (1.8*temp)+32 ;
+    printf("The Temperature in Fahrenheit is: %f \n",ConTemp);
+    
+	}
+    
+    default:
+    printf("Not a Correct choice!");
+
+}
+}
