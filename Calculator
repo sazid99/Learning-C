@@ -4,11 +4,12 @@ int main(){
 double num1,num2;
 char op;
 
-printf("Enter two numbers: ");
-scanf("%lf \t %lf",&num1,&num2);
-printf("\n");
 printf("Enter the operator[+,-,*,/]");
 scanf("%c",&op);
+printf("\n");
+
+printf("Enter two numbers: ");
+scanf("%lf \t %lf",&num1,&num2);
 printf("\n");
 
 switch(op)
