@@ -4,6 +4,8 @@ int main(){
 double num1,num2;
 char op;
 
+printf("				✪WELCOME TO SAZID'S CALCULATOR✪			\n\n");
+
 printf("Enter the operator[+,-,*,/] : ");
 scanf("%c",&op);
 printf("\n");
