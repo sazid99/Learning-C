@@ -1,0 +1,43 @@
+#include <stdio.h>
+int main(){
+
+    int op;
+    double a, b;
+    
+    printf("What do you want to do?\n");
+    printf("1. Addition(+)\n");
+    printf("2. Substruction(-)\n");
+    printf("3. Multiply(*)\n");
+    printf("4. Division(/)\n");
+    
+    scanf("%d",&op);
+    
+    switch (op)
+    {
+        case 1:
+        printf("Enter two number: ");
+        scanf("%lf %lf");
+        printf("Your Answer is: %lf",a+b);
+        break;
+        
+         case 2:
+        printf("Enter two number: ");
+        scanf("%lf %lf");
+        printf("Your Answer is: %lf",a-b);
+        break;
+        
+         case 3:
+        printf("Enter two number: ");
+        scanf("%lf %lf");
+        printf("Your Answer is: %lf",a*b);
+        break;
+        
+         case 4:
+        printf("Enter two number: ");
+        scanf("%lf %lf");
+        printf("Your Answer is: %lf",a*b);
+        break;
+    }
+    
+    
+}
