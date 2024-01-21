@@ -1,0 +1,53 @@
+#include <stdio.h>
+int main(){
+
+    int op;
+    double a, b;
+    
+    printf("WELCOME to Sazid's Calculator by C Language.\n What do you want to do?\n");
+    printf("1. Addition(+)\n");
+    printf("2. Substruction(-)\n");
+    printf("3. Multiplication(*)\n");
+    printf("4. Division(/)\n\n");
+    printf("Enter the category number: ");
+    scanf("%d",&op);
+  
+    switch (op)
+    {
+        case 1:
+        printf("Enter 1st value : ");
+        scanf("%lf",&a);
+        printf("\nEnter 2nd value : ");
+        scanf("%lf",&b);
+        printf("Your Answer is: %.3lf",a+b);
+        break;
+        
+         case 2:
+        printf("Enter 1st value : ");
+        scanf("%lf",&a);
+        printf("\nEnter 2nd value : ");
+        scanf("%lf",&b);
+        printf("Your Answer is: %.3lf",a-b);
+        break;
+        
+         case 3:
+        printf("Enter 1st value : ");
+        scanf("%lf",&a);
+        printf("\nEnter 2nd value : ");
+        scanf("%lf",&b);
+        printf("Your Answer is: %.3lf",a*b);
+        break;
+        
+         case 4:
+        printf("Enter 1st value : ");
+        scanf("%lf",&a);
+        printf("\nEnter 2nd value : ");
+        scanf("%lf",&b);
+        printf("Your Answer is: %.3lf",a/b);
+        break;
+        
+        
+    }
+    
+    
+}
