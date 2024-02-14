@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+int main() {
+    // Variable declaration section
+   int p,ch,b,m,c;
+   char grade;
+   //   Number input section 
+   printf("Input your marks\n");
+   printf("Physics: ");
+   scanf("%d",&p);
+   printf("\nChemistry: ");
+   scanf("%d",&ch);
+   printf("\nBiology: ");
+   scanf("%d",&b);
+   printf("\nMath: ");
+   scanf("%d",&m);
+   printf("\nComputer: ");
+   scanf("%d",&c);
+   //   Condition section 
+   if(p>=ch>=b>=m>=c>=90)
+   {
+       grade='A';
+   }
+   else if(p>=ch>=b>=m>=c>=80)
+   {
+       grade='B';
+   }
+   else if(p>=ch>=b>=m>=c>=70)
+   {
+       grade='C';
+   }
+   else if(p>=ch>=b>=m>=c>=60)
+   {
+       grade='D';
+   }
+   else if(p>=ch>=b>=m>=c>=40)
+   {
+       grade='E';
+   }
+    else if(p<ch<b<m<c<40)
+   {
+       grade='F';
+   }
+   else
+   {
+       printf("Enter a valid marks");
+   }
+   //   Result section
+   printf("\n\nYour Grade is:");
+   printf("\nPhysics: %c",grade);
+   printf("\nChemistry: %c",grade);
+   printf("\nBiology: %c",grade);
+   printf("\nMath: %c",grade);
+   printf("\nComputer: %c",grade);
+
+    return 0;
+}
